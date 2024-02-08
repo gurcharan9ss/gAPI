@@ -7,7 +7,7 @@ import (
 
 // Message represent a simple JSON message.
 type Message struct {
-	Greeting string `json:"greeting"` // Greeting is the greeting field in the JSON message
+	Greeting string `json:"greeting"`
 }
 
 func greetHandler(w http.ResponseWriter, r *http.Request) {
